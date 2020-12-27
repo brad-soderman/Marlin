@@ -95,6 +95,9 @@
   #define Z_MIN_PROBE_PIN                  P0_10
 #endif
 
+//This is defined so I can use the PWRDET pins on SKR for z min
+#define Z_MIN_PIN                           P1_00
+
 //
 // Filament Runout Sensor
 //
