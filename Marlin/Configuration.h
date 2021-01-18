@@ -497,9 +497,9 @@
     #define DEFAULT_Kd_LIST { 114.00, 112.0 }
   #else
     // flsun Q5 via M303 C8 E-1 S60
-    #define DEFAULT_Kp 80.77
-    #define DEFAULT_Ki 15.74
-    #define DEFAULT_Kd 276.27
+    #define DEFAULT_Kp 10.07
+    #define DEFAULT_Ki 0.51
+    #define DEFAULT_Kd 49.95
   #endif
 #endif // PIDTEMP
 
@@ -537,9 +537,9 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   // flsun Q5 via M303 E-1 C8 S60
-  #define DEFAULT_bedKp 58.98
-  #define DEFAULT_bedKi 10.82
-  #define DEFAULT_bedKd 214.36
+  #define DEFAULT_bedKp 163.44
+  #define DEFAULT_bedKi 31.86
+  #define DEFAULT_bedKd 558.96
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -1187,7 +1187,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR true
+#define INVERT_E0_DIR false
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
