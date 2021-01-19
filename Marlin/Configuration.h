@@ -497,9 +497,9 @@
     #define DEFAULT_Kd_LIST { 114.00, 112.0 }
   #else
     // flsun Q5 via M303 C8 E-1 S60
-    #define DEFAULT_Kp 10.07
-    #define DEFAULT_Ki 0.51
-    #define DEFAULT_Kd 49.95
+    #define DEFAULT_Kp 10.75
+    #define DEFAULT_Ki 0.56
+    #define DEFAULT_Kd 51.17
   #endif
 #endif // PIDTEMP
 
@@ -537,9 +537,9 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   // flsun Q5 via M303 E-1 C8 S60
-  #define DEFAULT_bedKp 163.44
-  #define DEFAULT_bedKi 31.86
-  #define DEFAULT_bedKd 558.96
+  #define DEFAULT_bedKp 158.84
+  #define DEFAULT_bedKi 29.69
+  #define DEFAULT_bedKd 566.59
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
