@@ -1338,7 +1338,8 @@
    *
    * :[ 'LCD', 'ONBOARD', 'CUSTOM_CABLE' ]
    */
-  #define SDCARD_CONNECTION ONBOARD
+  //CONNECTION_TYPE
+  //#define SDCARD_CONNECTION ONBOARD
 
 #endif // SDSUPPORT
 
